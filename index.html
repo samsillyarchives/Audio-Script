@@ -1,24 +1,23 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
-<title>Drumkit</title> 
+<title>Drumkit!</title> 
 <link rel="stylesheet" href="style.css"/>  
 </head> 
 <body> 
-	<p>Drumkit!</p> 
 	<img src="drum kit.png" usemap="#workmap">
 	<map name="workmap">
 		<area shape="circle" id="crash" class="crash" coords="103,275,93" onclick="Crash()"> <!--crash-->
-		<area shape="circle" coords="269,307,54" onclick="Tom1()"> <!--tom 1-->
-		<area shape="circle" coords="83,459,75" onclick="HiHat()"> <!--Hi-hat-->
-		<area shape="circle" coords="256,447,63" onclick="Snare()"> <!--snare-->
-		<area shape="circle" coords="397,305,52" onclick="Tom2()"> <!--tom 2-->
-		<area shape="circle" coords="472,417,64" onclick="Tom3()"> <!--tom 3-->
-		<area shape="circle" coords="637,425,93" onclick="Ride()"> <!--ride-->
-		<area shape="circle" coords="541,539,64" onclick="Tom4()"> <!--tom 4-->
-		<area shape="circle" coords="540,261,104" onclick="Crash2()"> <!--crash 2-->
+		<area shape="circle" id="tom1" class="tom1" coords="269,307,54" onclick="Tom1()"> <!--tom 1-->
+		<area shape="circle" id="hihat" class="hihat" coords="83,459,75" onclick="HiHat()"> <!--Hi-hat-->
+		<area shape="circle" id="snare" class="snare" coords="256,447,63" onclick="Snare()"> <!--snare-->
+		<area shape="circle" id="tom2" class="tom2" coords="397,305,52" onclick="Tom2()"> <!--tom 2-->
+		<area shape="circle" id="tom2" class="tom3" coords="472,417,64" onclick="Tom3()"> <!--tom 3-->
+		<area shape="circle" id="ride" class="ride" coords="637,425,93" onclick="Ride()"> <!--ride-->
+		<area shape="circle" id="tom4" class="tom4" coords="541,539,64" onclick="Tom4()"> <!--tom 4-->
+		<area shape="circle" id="crash2" class="crash2" coords="540,261,104" onclick="Crash2()"> <!--crash 2-->
+		<area shape="rect" id="kick" class="kick" coords="321,374,397,520" onclick="kick()">
 </map>
-<audio id="crashsound" src="crashsound.wav"></audio>
 <script src="script.js"></script>
 </body> 
 </html>

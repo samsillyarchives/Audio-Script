@@ -1,0 +1,9 @@
+body{
+    background: url(scribble.JPG);
+    background-size: cover;
+}
+
+img{
+    display: block;
+    margin: auto;
+}

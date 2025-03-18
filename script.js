@@ -1,4 +1,10 @@
 
+const Kickdrum = function() {
+    var kickdrumsound = new Audio('kickdrumsound.wav');
+    kickdrumsound.play();
+    
+}
+
 const Crash = function() {
     var crashaudio = new Audio('crashsound.wav');
     crashaudio.play();
@@ -43,7 +49,3 @@ const Crash2 = function() {
     crashaudio.play();
 }
 
-const Kick = function(){
-    var kickdrumsound = new Audio('kickdrumsound.wav');
-    kickdrumsound.play();
-}
